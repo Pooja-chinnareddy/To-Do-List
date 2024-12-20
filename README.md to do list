@@ -1,3 +1,43 @@
+''' EXAMPLE OUTPUT:-=== To-Do List ===
+1. View Tasks
+2. Add Task
+3. Remove Task
+4. Mark Task as Done
+5. Exit
+Enter your choice: 2
+Enter the task: Buy groceries
+Task 'Buy groceries' added to your to-do list.
+
+=== To-Do List ===
+1. View Tasks
+2. Add Task
+3. Remove Task
+4. Mark Task as Done
+5. Exit
+Enter your choice: 1
+
+Your To-Do List:
+1. Buy groceries - Not Done
+
+=== To-Do List ===
+1. View Tasks
+2. Add Task
+3. Remove Task
+4. Mark Task as Done
+5. Exit
+Enter your choice: 4
+Enter the task number to mark as done: 1
+Task 'Buy groceries' marked as done.
+
+=== To-Do List ===
+1. View Tasks
+2. Add Task
+3. Remove Task
+4. Mark Task as Done
+5. Exit
+Enter your choice: 5
+Exiting the To-Do List program. Goodbye!
+'''
 import os
 
 # List to hold tasks
